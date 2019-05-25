@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Enums">
+      <UniqueIdentifier>{441a2291-f166-4599-9fef-5a18a23f82b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Classes">
+      <UniqueIdentifier>{a2c3ebaa-6b5d-4dae-86d2-381ae8f7219c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Interfaces">
+      <UniqueIdentifier>{ef296b43-9924-4bc3-b0a5-cf78bf1f57d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scheduler.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ICallBack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OS.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SetEnum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TimerState.h">
+      <Filter>헤더 파일\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scheduler.h">
+      <Filter>소스 파일\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ICallBack.h">
+      <Filter>헤더 파일\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object.h">
+      <Filter>소스 파일\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
